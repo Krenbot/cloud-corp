@@ -1,9 +1,14 @@
-import Link from "next/link";
+import homeImg from "public/home.jpg";
+import Hero from "@/components/hero";
 
 export default function Home() {
   return (
-    <>
-      Home Page
-    </>
+    <div>
+      <Hero
+        imgData={homeImg}
+        imgAlt="Car factory"
+        title="Professional Cloud Hosting"
+      />
+    </div>
   );
 }
